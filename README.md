@@ -20,12 +20,7 @@ Upbot is a robust monitoring tool designed to keep track of your serverless appl
 - JWT for authentication
 - Nodemailer for email notifications
 
-### Frontend
-- Next.js for server-side rendering
-- React for UI components
-- Material-UI for design system
-- TypeScript for type safety
-- React Query for data fetching
+
 
 ## Prerequisites
 
