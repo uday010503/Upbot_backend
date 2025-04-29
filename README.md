@@ -11,7 +11,6 @@ Upbot is a robust monitoring tool designed to keep track of your serverless appl
 - 📱 **User Dashboard**: Intuitive interface to manage and monitor your URLs
 - 🔒 **Secure Authentication**: JWT-based authentication for secure access
 
-## Tech Stack
 
 ### Backend
 - Node.js with Express
@@ -43,18 +42,13 @@ cd backend
 npm install
 ```
 
-3. Install frontend dependencies:
-```bash
-cd ../frontend
-npm install
-```
+
 
 4. Create environment files:
 ```bash
 # Backend
 cp .env.example .env
-# Frontend
-cp .env.example .env
+
 ```
 
 5. Configure environment variables:
@@ -65,8 +59,7 @@ JWT_SECRET=your_jwt_secret
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
 
-# Frontend (.env)
-NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+
 ```
 
 ## Running the Application
@@ -77,13 +70,8 @@ cd backend
 npm run dev
 ```
 
-2. Start the frontend development server:
-```bash
-cd frontend
-npm run dev
-```
 
-3. Access the application at `http://localhost:3000`
+2. Access the application at `http://localhost:3000`
 
 ## API Documentation
 
@@ -139,10 +127,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For support, email support@upbot.com or create an issue in the GitHub repository.
+For support, email udayboranche@gmail.com or create an issue in the GitHub repository.
 
 ## Acknowledgments
 
-- Material-UI for the component library
 - MongoDB for the database
 - Nodemailer for email notifications 
